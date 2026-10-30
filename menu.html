@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu | Golden Plate Kitchen</title>
+  <meta name="description" content="Full menu with prices. Order any dish on WhatsApp.">
+  <meta property="og:title" content="Menu | Golden Plate Kitchen">
+  <meta property="og:description" content="Full menu with prices. Order any dish on WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="top">
+        <a class="back" href="index.html">← Back to home</a>
+        <a class="brand" href="index.html">Golden Plate <span>Kitchen</span></a>
+      </div>
+      <nav class="nav" aria-label="Menu categories">
+        <a href="#rice">Rice dishes</a>
+        <a href="#local">Local dishes</a>
+        <a href="#grills">Grills &amp; sides</a>
+        <a href="#drinks">Drinks</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="menu-intro wrap">
+      <h1>Our menu</h1>
+      <p>Tap "Order" on any dish and it opens WhatsApp with your order ready to send.</p>
+    </div>
+    <section id="rice" class="menu-cat wrap">
+      <h2>Rice dishes</h2>
+      <div class="item">
+        <div><h3>Jollof &amp; Chicken</h3><p>Party jollof, grilled chicken, shito.</p></div>
+        <div class="side"><span class="price">GH₵ 55</span><br><a class="order-link" data-order data-dish="Jollof and Chicken" href="#">Order →</a></div>
+      </div>
+      <div class="item">
+        <div><h3>Fried Rice &amp; Chicken</h3><p>Veggie fried rice, crispy chicken.</p></div>
+        <div class="side"><span class="price">GH₵ 55</span><br><a class="order-link" data-order data-dish="Fried Rice and Chicken" href="#">Order →</a></div>
+      </div>
+      <div class="item">
+        <div><h3>Waakye Special</h3><p>Egg, gari, spaghetti, fish, stew.</p></div>
+        <div class="side"><span class="price">GH₵ 45</span><br><a class="order-link" data-order data-dish="Waakye Special" href="#">Order →</a></div>
+      </div>
+      <div class="item">
+        <div><h3>Plain Rice &amp; Stew</h3><p>Rice with tomato stew and fish.</p></div>
+        <div class="side"><span class="price">GH₵ 35</span><br><a class="order-link" data-order data-dish="Plain Rice and Stew" href="#">Order →</a></div>
+      </div>
+    </section>
+    <section id="local" class="menu-cat wrap">
+      <h2>Local dishes</h2>
+      <div class="item">
+        <div><h3>Banku &amp; Tilapia</h3><p>Grilled tilapia, pepper, onions.</p></div>
+        <div class="side"><span class="price">GH₵ 70</span><br><a class="order-link" data-order data-dish="Banku and Tilapia" href="#">Order →</a></div>
+      </div>
+      <div class="item">
+        <div><h3>Fufu &amp; Light Soup</h3><p>Goat meat light soup.</p></div>
+        <div class="side"><span class="price">GH₵ 60</span><br><a class="order-link" data-order data-dish="Fufu and Light Soup" href="#">Order →</a></div>
+      </div>
+      <div class="item">
+        <div><h3>Red Red</h3><p>Beans stew with fried plantain.</p></div>
+        <div class="side"><span class="price">GH₵ 40</span><br><a class="order-link" data-order data-dish="Red Red" href="#">Order →</a></div>
+      </div>
+      <div class="item">
+        <div><h3>Kenkey &amp; Fried Fish</h3><p>With pepper and shito.</p></div>
+        <div class="side"><span class="price">GH₵ 40</span><br><a class="order-link" data-order data-dish="Kenkey and Fried Fish" href="#">Order →</a></div>
+      </div>
+    </section>
+    <section id="grills" class="menu-cat wrap">
+      <h2>Grills &amp; sides</h2>
+      <div class="item">
+        <div><h3>Grilled Chicken</h3><p>Quarter chicken, spicy marinade.</p></div>
+        <div class="side"><span class="price">GH₵ 40</span><br><a class="order-link" data-order data-dish="Grilled Chicken" href="#">Order →</a></div>
+      </div>
+      <div class="item">
+        <div><h3>Kelewele</h3><p>Spicy fried plantain with peanuts.</p></div>
+        <div class="side"><span class="price">GH₵ 20</span><br><a class="order-link" data-order data-dish="Kelewele" href="#">Order →</a></div>
+      </div>
+      <div class="item">
+        <div><h3>Fried Yam &amp; Pepper</h3><p>Crispy yam with pepper sauce.</p></div>
+        <div class="side"><span class="price">GH₵ 25</span><br><a class="order-link" data-order data-dish="Fried Yam and Pepper" href="#">Order →</a></div>
+      </div>
+      <div class="item">
+        <div><h3>Egg Sauce</h3><p>Extra egg sauce portion.</p></div>
+        <div class="side"><span class="price">GH₵ 10</span><br><a class="order-link" data-order data-dish="Egg Sauce" href="#">Order →</a></div>
+      </div>
+    </section>
+    <section id="drinks" class="menu-cat wrap">
+      <h2>Drinks</h2>
+      <div class="item">
+        <div><h3>Sobolo</h3><p>Chilled hibiscus drink.</p></div>
+        <div class="side"><span class="price">GH₵ 15</span><br><a class="order-link" data-order data-dish="Sobolo" href="#">Order →</a></div>
+      </div>
+      <div class="item">
+        <div><h3>Fresh Pineapple Juice</h3><p>Blended fresh.</p></div>
+        <div class="side"><span class="price">GH₵ 18</span><br><a class="order-link" data-order data-dish="Fresh Pineapple Juice" href="#">Order →</a></div>
+      </div>
+      <div class="item">
+        <div><h3>Bottled Water</h3><p>Chilled.</p></div>
+        <div class="side"><span class="price">GH₵ 5</span><br><a class="order-link" data-order data-dish="Bottled Water" href="#">Order →</a></div>
+      </div>
+      <div class="item">
+        <div><h3>Soft Drink</h3><p>Coke, Fanta or Sprite.</p></div>
+        <div class="side"><span class="price">GH₵ 10</span><br><a class="order-link" data-order data-dish="Soft Drink" href="#">Order →</a></div>
+      </div>
+    </section>
+    <div class="center wrap" style="padding:36px 0"><a class="btn ghost" href="index.html">← Back to home</a></div>
+  </main>
+
+  <footer><div class="wrap">© Golden Plate Kitchen. Website by Dev Bills Solutions.</div></footer>
+  <a class="float-wa" data-order href="#">Order on WhatsApp</a>
+  <script src="script.js"></script>
+</body>
+</html>
